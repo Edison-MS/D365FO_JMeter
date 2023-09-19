@@ -124,7 +124,7 @@
       "referenceName" : "Canary",
       "correlationExtractor" : {
         "type" : "com.blazemeter.jmeter.correlation.core.extractors.RegexCorrelationExtractor",
-        "regex" : "\"canary\":\"(.+?)\","
+        "regex" : "\"canary\":\"(.+?)\""
       },
       "correlationReplacement" : {
         "type" : "com.blazemeter.jmeter.correlation.core.replacements.RegexCorrelationReplacement",
